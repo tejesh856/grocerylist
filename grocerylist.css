@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color:#F1f5f8;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    
+    
+    display:inline-block;
+    max-width:90vw;
+    width:600px;
+    background-color: white;
+    box-shadow:0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius:10px;
+    position: absolute;
+    top:100px;
+    text-align: center;
+    
+    padding:2rem;
+    
+    
+    
+}
+
+.container .notify{
+    font-size: 16px;
+    letter-spacing:3px;
+    
+    background-color: rgba(255, 0, 0, 0.171);
+    color: rgba(165, 7, 7, 0.452);
+    
+    text-align: center;
+    visibility: hidden;
+    display: block;
+    
+    border-radius:5px;
+    padding:3px;
+    margin-bottom:20px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container h2{
+    font-size:40px;
+    text-transform: capitalize;
+    color: navy;
+    letter-spacing:5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom:30px;
+    text-align: center;
+}
+.container .input{
+    display: flex;
+    margin-bottom:20px;
+    
+    
+    width:100%;
+    
+
+}
+.container .input .text{
+    padding:6px 20px;
+    background-color: rgba(51, 143, 182, 0.1);
+    font-size:18px;
+    border-top-left-radius:10px;
+    width:100%;
+    min-width:0;
+
+    border-bottom-left-radius: 10px;
+    
+    border: none;
+
+}
+.container .input .submit{
+    padding: 5px 15px;
+    border: none;
+    font-size:16px;
+    text-transform: capitalize;
+    letter-spacing:2px;
+    border-top-right-radius:10px;
+    
+    
+    border-bottom-right-radius: 10px;
+    background-color: rgba(116, 201, 235, 0.829);
+    cursor: pointer;
+    transition:all 0.5s ease;
+}
+.container .input .submit:hover{
+    color: white;
+    background-color: rgb(70, 187, 233);
+
+}
+.container .input .edit{
+    padding: 5px 25px;
+    border: none;
+    font-size:16px;
+    text-transform: capitalize;
+    letter-spacing:2px;
+    border-top-right-radius:10px;
+    
+    
+    border-bottom-right-radius: 10px;
+    background-color: rgba(116, 201, 235, 0.829);
+    cursor: pointer;
+    transition:all 0.5s ease;
+
+}
+.container .input .edit:hover{
+    color: white;
+    background-color: rgb(70, 187, 233);
+
+}
+.container .cover{
+    width: 100%;
+    height:100%;
+    
+
+}
+.container .cover .items{
+    display: flex;
+    margin-top:20px;
+    width:100%;
+    
+    padding:6px 20px;
+    justify-content: space-between;
+    align-items: center;
+   border-radius:8px;
+   
+   transition: all 0.6s ease;
+}
+.container .cover .items:hover{
+    background-color:rgba(51, 143, 182, 0.1);
+}
+.container .cover .items:hover span{
+    color: rgba(55, 99, 112, 0.74);
+}
+.container .cover .items span{
+    text-transform: capitalize;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:20px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.container .cover .items .btns .btn1{
+    border: none;
+    background-color: transparent;
+    color: rgb(96, 235, 96);
+    margin-right:5px;
+    cursor: pointer;
+}
+.container .cover .items .btns .btn2{
+    border: none;
+    background-color: transparent;
+    color: rgba(255, 0, 0, 0.671);
+    cursor: pointer;
+
+}
+.container .clear{
+    border: none;
+    color:rgb(196, 12, 12);
+    background-color: transparent;
+    
+    text-transform:uppercase;
+    letter-spacing:2px;
+    display:none;
+    font-size:15px;
+
+    
+    
+    margin-top:20px;
+    cursor: pointer;
+}
+.clear.clears{
+    display:inline-block;
+}
